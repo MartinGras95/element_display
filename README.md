@@ -1,0 +1,1 @@
+This project will contain a collection of unique elements created by me and will serve as a catalouge of sort.
