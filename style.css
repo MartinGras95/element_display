@@ -24,19 +24,38 @@ button{
     width: 250px;
     margin: 5px;
     cursor: pointer;
-    transition: all 0.3s;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: large;
     border-color: transparent;
+    position: relative;
+}
+
+#btn-anim-1{
+    transition: all 0.3s;
+    opacity: 0.9;
 }
 
 #btn-anim-1:hover{
     letter-spacing: 4px;
     border-color: transparent;
-    background-color: violet;
+    background-color: rgb(80, 204, 136);
     border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
+
+#btn-anim-1:active{
+    background-color: rgb(72, 184, 122);
+    letter-spacing: 2px;
+    transition: all 0.1s;
+    opacity: 1;
+}
+
+
+
+
 
 
 
